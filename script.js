@@ -40,7 +40,7 @@ function buildFace(){
   const rEdge      = size / 2 - rim;
   const rMinCircle = rEdge - size * 0.035;
   const rDots      = rMinCircle - size * 0.020;
-  const rHours     = rMinCircle - size * 0.105;
+  const rHours     = rMinCircle - size * 0.080;
 
   // pontinhos (vermelhos nos múltiplos de 5)
   for(let i = 0; i < 60; i++){
@@ -79,7 +79,7 @@ function layoutPhotos(urls, face){
   const photoD = size * 0.094;                 // diâmetro de cada foto
   const photoR = photoD / 2;
 
-  const Rout = rHours - photoR - size * 0.045; // anel externo (com folga dos números)
+  const Rout = rHours - photoR - size * 0.080; // anel externo (com folga dos números)
   const Rin  = size * 0.085;                    // folga para o centro/ponteiros
 
   // número de anéis conforme o espaço disponível
